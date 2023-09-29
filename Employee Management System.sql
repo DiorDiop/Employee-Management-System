@@ -275,3 +275,25 @@ VALUES (49, 'Ava', 'Taylor', 'ava.taylor@example.com', '777-123-4567', '666 Oak 
 -- Employee 50
 INSERT INTO [Employee Management System].[dbo].[Employees] (EmployeeID, FirstName, LastName, Email, Phone, Address, HireDate, DepartmentID, Salary, JobTitle, SupervisorID)
 VALUES (50, 'Ethan', 'Lewis', 'ethan.lewis@example.com', '555-666-7777', '777 Cedar Lane', '2023-08-05', 5, 54000.00, 'Data Engineer', 5);
+
+
+
+-- Inserting Departments
+
+
+INSERT INTO [Employee Management System].[dbo].[Departments] (DepartmentID, DepartmentName, Description, ManagerID, Location, EstablishedDate)
+VALUES (1, 'Revenue Analysis and Forecasting', 'Responsible for analyzing revenue data and forecasting future revenue trends.', 1, 'New York', '2022-01-01');
+
+INSERT INTO [Employee Management System].[dbo].[Departments] (DepartmentID, DepartmentName, Description, ManagerID, Location, EstablishedDate)
+VALUES (2, 'Sales Operations', 'Manages sales processes, sales support, and customer relationship management.', 2, 'Los Angeles', '2022-01-01');
+
+INSERT INTO [Employee Management System].[dbo].[Departments] (DepartmentID, DepartmentName, Description, ManagerID, Location, EstablishedDate)
+VALUES (3, 'Financial Reporting and Compliance', 'Handles financial reporting, compliance, and auditing activities.', 3, 'Chicago', '2022-01-01');
+
+INSERT INTO [Employee Management System].[dbo].[Departments] (DepartmentID, DepartmentName, Description, ManagerID, Location, EstablishedDate)
+VALUES (4, 'Client Relations and Account Management', 'Manages client accounts, customer success, and client relations.', 4, 'San Francisco', '2022-01-01');
+
+INSERT INTO [Employee Management System].[dbo].[Departments] (DepartmentID, DepartmentName, Description, ManagerID, Location, EstablishedDate)
+VALUES (5, 'Data Analytics and Business Intelligence', 'Responsible for data analysis, business intelligence, and data management.', 5, 'Seattle', '2022-01-01');
+
+
